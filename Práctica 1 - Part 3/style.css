@@ -1,0 +1,141 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3876BF;
+}
+
+.b, li{
+    color: #F3F0CA;
+}
+
+li{
+    font-size: 10px;
+}
+
+.b{
+    padding: 0.25%;
+}
+
+.ins,.you{
+    filter: #F3F0CA;
+    height: 1%;
+    width: 1%;
+    padding: 0.25%;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex; flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 5px 5px 0%;
+    background-color: #192655;
+}
+
+.encabezado-2{
+    padding: 50px 10px 10px 100px;
+    color: #F3F0CA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    /*text-decoration-line: underline;*/
+}
+
+.minu{
+    padding: 50px 10px 10px 100px;
+    color: #F3F0CA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+    /*text-decoration-line: underline;*/
+}
+
+.header{
+    display: flex;
+}
+
+p{
+    padding: 50px 10px 10px 5%;
+    color: #F3F0CA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+}
+
+.designer{
+    padding: 50px 10px 10px 200px;
+    font-size: 56px;
+}
+.content-1{
+    display: flex;
+    padding-top: 75px;
+}
+
+.img-1{
+    padding: 0px 0px 0px 100px;
+    width: 30%;
+}
+.content-2{
+    display: flex;
+    flex-direction: row;
+}
+.sss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    padding: 0px 0px 0px 100px;
+
+}
+.portfolio-button{
+    font-size: 20px;
+    padding: 30px;
+    margin-right: 0px;
+}
+.shop-button{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    padding-right: 100px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: #F3F0CA;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+}
+.home{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.brognoli{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    padding: 75px 0px 0px 200px;
+}
