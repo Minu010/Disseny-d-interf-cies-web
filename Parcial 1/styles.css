@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .logo{
     height: 50px;
     width: 50px;
@@ -14,7 +15,7 @@ nav {
     display: flex;
     flex-direction: row;
     background-color: gold;
-    padding: 0px 0px 0px 0px;
+    padding: 10px;
 }
 .derecha {
     display: flex;
@@ -35,4 +36,16 @@ nav {
 .section-2{
     background-color: gold;
     padding: 100px;
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+}
+.cruz-3{
+    width: 30%;
+    height: 30%;
+}
+
+.cruz-4{
+    width: 10%;
 }
