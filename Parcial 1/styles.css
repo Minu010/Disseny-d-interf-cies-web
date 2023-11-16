@@ -1,0 +1,38 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    padding-left: 100px;
+}
+ul, li{
+    list-style: none;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: gold;
+    padding: 0px 0px 0px 0px;
+}
+.derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+}
+
+.cruz{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.cruz-2{
+    height: 40%;
+    width: 40%;
+}
+.section-2{
+    background-color: gold;
+    padding: 100px;
+}
