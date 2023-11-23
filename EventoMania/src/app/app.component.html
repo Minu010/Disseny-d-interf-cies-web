@@ -1,0 +1,36 @@
+<h2>Es mostren tots els events</h2>
+<select [(ngModel)]="selectedDireccion" (change)="filtrarPorDireccion()">
+  <option *ngFor="let direccion of direcciones" [value]="direccion">{{ direccion }}</option>
+</select>
+
+<div *ngIf="eventosFiltrados.length === 0">Sin eventos por mostrar</div>
+
+<div *ngFor="let evento of eventosFiltrados">
+  <h1>{{ evento.titulo }}</h1>
+  <p>Artista: {{ evento.artista }}</p>
+  <p>Dirección: {{ evento.direccion }}</p>
+  <p>Fecha: {{ evento.fecha | date }}</p>
+  <p>Precio: {{ evento.precio === 0 ? 'Gratis' : evento.precio | currency:'USD':'symbol':'1.2-2' }}</p>
+</div>
+
+<div>
+  <h1>Próximos Eventos</h1>
+  <div *ngFor="let evento of proximosEventos">
+    <h2>{{ evento.titulo }}</h2>
+    <p>Artista: {{ evento.artista }}</p>
+    <p>Dirección: {{ evento.direccion }}</p>
+    <p>Fecha: {{ evento.fecha | date }}</p>
+    <p>Precio: {{ evento.precio === 0 ? 'Gratis' : evento.precio | currency:'USD':'symbol':'1.2-2' }}</p>
+  </div>
+</div>
+
+<div>
+  <h1>Eventos Pasados</h1>
+  <div *ngFor="let evento of eventosPasados">
+    <h2>{{ evento.titulo }}</h2>
+    <p>Artista: {{ evento.artista }}</p>
+    <p>Dirección: {{ evento.direccion }}</p>
+    <p>Fecha: {{ evento.fecha | date }}</p>
+    <p>Precio: {{ evento.precio === 0 ? 'Gratis' : evento.precio | currency:'USD':'symbol':'1.2-2' }}</p>
+  </div>
+</div>
