@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Loki Tour 2",
+    "artista": "Destripando la Historia",
+    "direccion": "Sant Jordi Club",
+    "fecha": "2023-12-16T13:30:51.345Z",
+    "precio": 45,
+    "imagen":"assets/ede9fde8-edbb-4462-ba7c-7b12e1b2e746.webp"
+  },
+  {
+    "titulo": "Loki Tour",
+    "artista": "Destripando la Historia",
+    "direccion": "Sant Jordi Club",
+    "fecha": "2023-11-16T13:30:51.345Z",
+    "precio": 30,
+    "imagen":"assets/maxresdefault (1).jpg"
+  },
+  {
+    "titulo": "Periko Tour",
+    "artista": "Reno Renardo",
+    "direccion": "Palau Sant Jordi",
+    "fecha": "2023-12-19T19:30:51.345Z",
+    "precio": 10,
+    "imagen":"assets/el-reno-renardo-en-xixon-1694424673.8583536.430x241.jpg"
+  },
+  {
+    "titulo": "Caqui Tour",
+    "artista": "",
+    "direccion": "Sant Jordi Club",
+    "fecha": "2023-12-15T13:30:51.345Z",
+    "precio": 0,
+    "imagen":"assets/images.jpeg"
+  },
+  {
+    "titulo": "Tito Tour",
+    "artista": "Christmas Is Coming",
+    "direccion": "Razzmatazz",
+    "fecha": "2023-12-25T22:59:59.345Z",
+    "precio": 30,
+    "imagen":"assets/unnamed2-2.jpg"
+  }
+]
