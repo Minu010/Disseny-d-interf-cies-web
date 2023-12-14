@@ -1,0 +1,56 @@
+body{
+    padding-left: 300px;
+    padding-right: 300px;
+    background-image: url('img/taylor-van-riper-yQorCngxzwI-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 150px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.caja{
+    height: 50%;
+    width: 50%;
+}
+.seccion-2{
+    display: flex;
+    justify-content: space-between;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aaa{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    padding-right: 100px;
+    color: black;
+    font-size: larger;
+}
+
+.footer{
+    background-color: white;
+    color: white;
+}
